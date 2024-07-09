@@ -1,5 +1,11 @@
-Organizar todas las tablas y la declaración de las mismas en un archivo aparte es una buena práctica. Esto hace que tu código sea más limpio y mantenible. Generalmente, puedes crear un archivo llamado `models.py` o algo similar para definir todos tus modelos.
+---
+tags:
+  - bases
+  - db
+---
 
+Organizar todas las tablas y la declaración de las mismas en un archivo aparte es una buena práctica. Esto hace que tu código sea más limpio y mantenible. Generalmente, puedes crear un archivo llamado `models.py` o algo similar para definir todos tus modelos.
+[[SQLAlchemy]]
 ### Ejemplo de `models.py`
 
 ```python
@@ -69,7 +75,7 @@ class ControlUsuarios:
 
     def encontrar_usuario(self, nombre):
         """Busca usuario por nombre"""
-        return self.db_connector.session.query(Usuario).filter_by(nombre=nombre).first()
+		return self.db_connector.session.query(Usuario).filter_by(nombre=nombre).first()
 
     def create_user(self, nombre, email, password):
         """Crea un usuario"""

@@ -8,72 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b61d3d4f0922f19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38e7e433f78f3a8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d353d299b0c7f39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tecnologias/SQLAlchemy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a8755457d75eff96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fundamentos/DbConector.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d7f2edc917b2aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fundamentos/kargs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "329793ea1f4c7d02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tecnologias/SQLAlchemy.md",
+                "file": "fundamentos/Ejemplo practico de DB.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fundamentos/kargs.md",
+                "file": "fundamentos/Ejemplo practico de DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fundamentos/kargs.md",
+                "file": "fundamentos/Ejemplo practico de DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fundamentos/kargs.md"
+                "file": "fundamentos/Ejemplo practico de DB.md"
               }
             }
           }
@@ -231,15 +170,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2d7f2edc917b2aac",
+  "active": "a8755457d75eff96",
   "lastOpenFiles": [
-    "fundamentos/DbConector.md",
-    "fundamentos/Ejemplo practico de DB.md",
-    "raise.md",
-    "Welcome.md",
     "tecnologias/SQLAlchemy.md",
-    "tecnologias/Alembic.md",
+    "fundamentos/Ejemplo practico de DB.md",
+    "fundamentos/DbConector.md",
+    "Welcome.md",
     "fundamentos/kargs.md",
+    "raise.md",
+    "tecnologias/Alembic.md",
     "assets/ejemplo kargs2.png",
     "Sin nombre",
     "assets/ejemplo kargs1.png",
