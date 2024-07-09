@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tecnologias/Alembic.md",
+                "file": "fundamentos/kargs.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "fundamentos/kargs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "fundamentos/kargs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "fundamentos/kargs.md"
               }
             }
           }
@@ -231,13 +231,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4ce469c686fa0541",
+  "active": "2d7f2edc917b2aac",
   "lastOpenFiles": [
+    "fundamentos/DbConector.md",
+    "fundamentos/Ejemplo practico de DB.md",
+    "raise.md",
+    "Welcome.md",
     "tecnologias/SQLAlchemy.md",
     "tecnologias/Alembic.md",
-    "fundamentos/Ejemplo practico de DB.md",
-    "fundamentos/DbConector.md",
-    "raise.md",
     "fundamentos/kargs.md",
     "assets/ejemplo kargs2.png",
     "Sin nombre",
@@ -245,7 +246,6 @@
     "fundamentos/python/multi_call.md",
     "assets/Sin título.canvas",
     "assets",
-    "Welcome.md",
     "create a link.md",
     "fundamentos",
     "Proyecto/modulos",
