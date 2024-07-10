@@ -1,6 +1,6 @@
 
 import flet as ft
-from flet import AppBar, ElevatedButton, Page, Text, View, colors
+from flet import AppBar, ElevatedButton, Page, Text, View, colors, Container
 from views.entra import ViewEntrada
 def main(page: ft.Page):
 
@@ -10,9 +10,9 @@ def main(page: ft.Page):
             View(
                 "/",
                 [
-                    AppBar(title=Text("Flet app"), bgcolor=colors.SURFACE_VARIANT),
-                    ViewEntrada(page),
+                    Container(ViewEntrada(page), expand=True),
                 ],
+                appbar=AppBar(title=Text("Flet app"), bgcolor=colors.SURFACE_VARIANT),
             )
         )
         if page.route == "/store":
