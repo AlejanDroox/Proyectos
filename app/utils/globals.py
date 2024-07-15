@@ -1,0 +1,4 @@
+DIRECCIONES = {
+    'ENTRADA': '/',
+    'REGISTRO': '/registro'
+}

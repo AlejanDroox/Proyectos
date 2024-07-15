@@ -2,9 +2,14 @@
 import flet as ft
 from flet import AppBar, ElevatedButton, Page, Text, View, colors, Container
 from views.entra import ViewEntrada
+from utils.globals import DIRECCIONES
+from views.drawer import Drawer
+from views.registro import ViewRegistro
 def main(page: ft.Page):
-
+    drawer = Drawer()
+    barra = AppBar(title=Text("Flet app"), bgcolor=colors.SURFACE_VARIANT)
     def route_change(e):
+        
         page.views.clear()
         page.views.append(
             View(
@@ -12,17 +17,19 @@ def main(page: ft.Page):
                 [
                     Container(ViewEntrada(page), expand=True),
                 ],
-                appbar=AppBar(title=Text("Flet app"), bgcolor=colors.SURFACE_VARIANT),
+                appbar=barra,
+                drawer=drawer
             )
         )
-        if page.route == "/store":
+        if page.route == DIRECCIONES['REGISTRO']:
             page.views.append(
                 View(
-                    "/store",
+                    DIRECCIONES['REGISTRO'],
                     [
-                        AppBar(title=Text("Store"), bgcolor=colors.SURFACE_VARIANT),
-                        ElevatedButton("Go Home", on_click=lambda _: page.go("/")),
+                        Container(ViewRegistro(page), expand=True)
                     ],
+                    appbar=AppBar(title=Text("Store"), bgcolor=colors.SURFACE_VARIANT),
+                    drawer=drawer
                 )
             )
         page.update()
@@ -36,7 +43,6 @@ def main(page: ft.Page):
     page.on_view_pop = view_pop
     page.theme_mode = 'light'
     page.go(page.route)
-
     page.add()
 
 ft.app(target=main)
